@@ -16,6 +16,7 @@ public class MoveAndDir : MonoBehaviour
     public Animator animatorLeg;
     private void Start() 
     {
+        Dir=new Vector3(0,-1,0);
         playerData=GameObject.Find("PlayerData").GetComponent<PlayerData>();
     }
     Vector3 PlayerMove()
@@ -55,16 +56,16 @@ public class MoveAndDir : MonoBehaviour
         {
             WalkState=1;
             Straight=false;
-            Head.localScale=new Vector3(1,1,0);
-            Leg.localScale=new Vector3(1,1,0);
+            Head.localScale=new Vector3(2.5f,2.5f,0);
+            Leg.localScale=new Vector3(2.5f,2.5f,0);
 
         }
         else if(Dir.x<0&&Dir.y==0)
         {
             WalkState=1;
             Straight=false;
-            Head.localScale=new Vector3(-1,1,0);
-            Leg.localScale=new Vector3(-1,1,0);
+            Head.localScale=new Vector3(-2.5f,2.5f,0);
+            Leg.localScale=new Vector3(-2.5f,2.5f,0);
         }
         else if(Dir.x==0&&Dir.y>0)
         {
@@ -84,7 +85,7 @@ public class MoveAndDir : MonoBehaviour
         
     private void Update()
     {
-       Dir= PlayerMove();
+       Dir= PlayerMove().magnitude==0?Dir:PlayerMove();
        ChangeSprite();
     }
           
