@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TearFun : MonoBehaviour
+public class 圆头怪Tear : MonoBehaviour
 {
-
     public Animator animator;
+    GameObject Player;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.parent != null &&
@@ -45,49 +45,22 @@ public class TearFun : MonoBehaviour
 
 
         }
-        else if (other.name.Substring(0, 2) == "蜘蛛")
+        else if (other.gameObject == Player)
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<Collider2D>().enabled = false;
             animator.SetTrigger("Break");
             Destroy(gameObject, 1);
 
-            other.GetComponent<蜘蛛行为>().HP -= 5;
+            GameObject.Find("PlayerData").GetComponent<PlayerData>().HP--;
         }
-        else if (other.name.Substring(0, 2) == "圆头虫")
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            GetComponent<Collider2D>().enabled = false;
-            animator.SetTrigger("Break");
-            Destroy(gameObject, 1);
 
-            other.GetComponent<圆头虫行为>().HP -= 5;
-        }
-        else if (other.name.Substring(0, 2) == "肥仔")
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            GetComponent<Collider2D>().enabled = false;
-            animator.SetTrigger("Break");
-            Destroy(gameObject, 1);
 
-            other.GetComponent<肥仔行为>().HP -= 5;
-        }
-        else if (other.name.Substring(0, 2) == "肉团")
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            GetComponent<Collider2D>().enabled = false;
-            animator.SetTrigger("Break");
-            Destroy(gameObject, 1);
-
-            other.GetComponent<肉团行为>().HP -= 5;
-        }
 
     }
-
-    void Start()
+    private void Start()
     {
-
+        Player = GameObject.Find("Yisa");
     }
-
 
 }

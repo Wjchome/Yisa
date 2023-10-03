@@ -10,16 +10,22 @@ public class PlayerData : MonoBehaviour
     public float SpeedFire;//弹速
     public float AttackPower;
 
-    public int []道具;
+    public int BoomNum = 1;
+
+    public int[] 道具;
 
     private void Awake()
     {
-        Speed=8;
+        Speed = 8;
 
-        RateFire=0.5f;
 
-        SpeedFire=200;
+        HP = 6;
 
-        道具=new int[3];
+        RateFire = 0.5f;
+
+        SpeedFire = 200;
+
+        道具 = new int[3];
     }
+
 }

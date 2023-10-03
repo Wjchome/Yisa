@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 40c0dada3cd1dc040926a0ffe42b9009
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_207_fatty1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ea8aa8803b2b4488cfe966982c3d9
+      internalID: 1692619829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4331e8a6e392c418b2e9b4b204045b
+      internalID: -1514692343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6a395808a6954c8749868939333fd
+      internalID: 1517903251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1044f93a8dac44d8064690852da7ab
+      internalID: 1082264038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b0c70d6776ca43a820ee6c7ffa842
+      internalID: 942902224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9500f39c352554798b03fd3a61a824
+      internalID: -1482257685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c312b8109177d546bd2318e139eff0e
+      internalID: -31712063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 183.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f788f4da9732ea940b44fe021d3b45d4
+      internalID: 1036549851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d212f8d1ec4714e85dc0e307bfc3bf
+      internalID: 1192307694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d52e1afd2f5dd9469c26c2b53f6946e
+      internalID: 608697774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 122.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1747d6caf574f0d478375f5beebf6de3
+      internalID: -1216728521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 122.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4f8ba2fb69c5c478daaf8d636dfe8e
+      internalID: -1662244195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1e3aec63ca6034583e8ba054475be2
+      internalID: -101847527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf473084e2658c4580562a3012a03b5
+      internalID: 444618582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d4e6015107a37499ce1b245abeae08
+      internalID: 1537736740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be00cf507a5d257498d5415e9e3bde21
+      internalID: -8047548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f587309c7d107474c816af5e1e52703b
+      internalID: -55264199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef06336fbd094941a5ddaa1b70ffa5f
+      internalID: 847307242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134613a55ae424b40b08dc1ec3b72658
+      internalID: 1927851028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 61.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4a6c36f1cb0db4c8d67b50b0f3633a
+      internalID: -1796050342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d3cb5c80989146bf4d36291409325
+      internalID: 433521214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27a181961794314a900686a5230cf2d
+      internalID: 202919939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052758ad3facc24486df42faa200307
+      internalID: 1426588458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_207_fatty1_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.75
+        width: 64
+        height: 61.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a750089d1a3b44bf7bb812da88d5b
+      internalID: -1530405013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monster_207_fatty1_0: 1692619829
+      monster_207_fatty1_1: -1514692343
+      monster_207_fatty1_10: -1216728521
+      monster_207_fatty1_11: -1662244195
+      monster_207_fatty1_12: -101847527
+      monster_207_fatty1_13: 444618582
+      monster_207_fatty1_14: 1537736740
+      monster_207_fatty1_15: -8047548
+      monster_207_fatty1_16: -55264199
+      monster_207_fatty1_17: 847307242
+      monster_207_fatty1_18: 1927851028
+      monster_207_fatty1_19: -1796050342
+      monster_207_fatty1_2: 1517903251
+      monster_207_fatty1_20: 433521214
+      monster_207_fatty1_21: 202919939
+      monster_207_fatty1_22: 1426588458
+      monster_207_fatty1_23: -1530405013
+      monster_207_fatty1_3: 1082264038
+      monster_207_fatty1_4: 942902224
+      monster_207_fatty1_5: -1482257685
+      monster_207_fatty1_6: -31712063
+      monster_207_fatty1_7: 1036549851
+      monster_207_fatty1_8: 1192307694
+      monster_207_fatty1_9: 608697774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
