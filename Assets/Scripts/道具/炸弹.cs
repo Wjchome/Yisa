@@ -63,6 +63,16 @@ public class 炸弹 : MonoBehaviour
                 }
 
             }
+            else if (other.transform.parent != null &&
+        other.transform.parent.name == "炸药桶")
+            {
+
+
+                other.GetComponent<Animator>().SetTrigger("Boom");
+                Destroy(other.gameObject, 0.8f);
+
+
+            }
             else if (other.name.Substring(0, 2) == "蜘蛛")
             {
 

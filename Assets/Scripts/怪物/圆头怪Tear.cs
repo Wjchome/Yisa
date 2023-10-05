@@ -41,6 +41,7 @@ public class 圆头怪Tear : MonoBehaviour
             Destroy(gameObject, 1);
 
             other.GetComponent<Animator>().SetTrigger("Boom");
+            other.transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
             Destroy(other.gameObject, 0.8f);
 
 

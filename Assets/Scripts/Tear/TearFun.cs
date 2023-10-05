@@ -41,6 +41,7 @@ public class TearFun : MonoBehaviour
             Destroy(gameObject, 1);
 
             other.GetComponent<Animator>().SetTrigger("Boom");
+            other.transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
             Destroy(other.gameObject, 0.8f);
 
 
@@ -54,15 +55,7 @@ public class TearFun : MonoBehaviour
 
             other.GetComponent<蜘蛛行为>().HP -= 5;
         }
-        else if (other.name.Substring(0, 2) == "圆头虫")
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            GetComponent<Collider2D>().enabled = false;
-            animator.SetTrigger("Break");
-            Destroy(gameObject, 1);
 
-            other.GetComponent<圆头虫行为>().HP -= 5;
-        }
         else if (other.name.Substring(0, 2) == "肥仔")
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -80,6 +73,15 @@ public class TearFun : MonoBehaviour
             Destroy(gameObject, 1);
 
             other.GetComponent<肉团行为>().HP -= 5;
+        }
+        else if (other.name.Substring(0, 3) == "圆头虫")
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Collider2D>().enabled = false;
+            animator.SetTrigger("Break");
+            Destroy(gameObject, 1);
+
+            other.GetComponent<圆头虫行为>().HP -= 5;
         }
 
     }
