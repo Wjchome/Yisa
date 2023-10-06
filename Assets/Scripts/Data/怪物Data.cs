@@ -20,6 +20,8 @@ public class 怪物Data : MonoBehaviour
         fun2();
         fun3();
         fun4();
+        fun5();
+
 
 
 
@@ -70,8 +72,8 @@ public class 怪物Data : MonoBehaviour
     }
     void fun4()
     {
-        if (-4.5f < Player.transform.position.y && Player.transform.position.y < 3.5 &&
-        -7.5f < Player.transform.position.x && Player.transform.position.x < 7.5 &&
+        if (-22.5f < Player.transform.position.y && Player.transform.position.y < -14.5 &&
+        -4.5f < Player.transform.position.x && Player.transform.position.x < 10.5 &&
         怪物[8] != null && 怪物[9] != null)
         {
             怪物[8].SetActive(true);
@@ -80,9 +82,37 @@ public class 怪物Data : MonoBehaviour
         if (怪物[8] == null && 怪物[9] == null)
         {
             doors[3].GetComponent<门fun>().Open = true;
+            doors[4].GetComponent<门fun>().Open = true;
         }
 
     }
+    void fun5()
+    {
+        if (-32.5f < Player.transform.position.y && Player.transform.position.y < -24.5 &&
+        -4.5f < Player.transform.position.x && Player.transform.position.x < 10.5 &&
+        怪物[10] != null && 怪物[11] != null && 怪物[12] != null && 怪物[13] != null)
+        {
+            怪物[10].SetActive(true);
+            怪物[11].SetActive(true);
+            怪物[12].SetActive(true);
+            怪物[13].SetActive(true);
+        }
+        if (怪物[10] == null && 怪物[11] == null && 怪物[12] == null && 怪物[13] == null)
+        {
+            doors[5].GetComponent<门fun>().Open = true;
+        }
+    }
+    void fun6()
+    {
+        if (-41.5f < Player.transform.position.y && Player.transform.position.y < -344.5 &&
+        -4.5f < Player.transform.position.x && Player.transform.position.x < 10.5 &&
+        怪物[14] != null && 怪物[15] != null)
+        {
+            怪物[14].SetActive(true);
+            怪物[15].SetActive(true);
 
+        }
+
+    }
 
 }

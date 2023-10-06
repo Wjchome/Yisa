@@ -34,7 +34,7 @@ public class 肥仔行为 : MonoBehaviour
         {
             Leg.GetComponent<Animator>().SetBool("just", false);
         }
-        GetComponent<Rigidbody2D>().AddForce(dir * 100 * Time.deltaTime);
+        GetComponent<Rigidbody2D>().AddForce(dir * 120 * Time.deltaTime);
 
         if (HP <= 0)
         {

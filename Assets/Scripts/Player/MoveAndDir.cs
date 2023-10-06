@@ -46,7 +46,7 @@ public class MoveAndDir : MonoBehaviour
         }
 
         force = force.normalized;
-        GetComponent<Rigidbody2D>().AddForce(force * playerData.Speed);
+        GetComponent<Rigidbody2D>().AddForce(force * playerData.MoveSpeed);
         return force;
 
 

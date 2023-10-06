@@ -25,6 +25,8 @@ public class 炸弹 : MonoBehaviour
     void b()
     {
         GetComponent<Collider2D>().enabled = true;
+        GetComponent<CircleCollider2D>().radius = 0.3f;
+
     }
 
     IEnumerator a()
