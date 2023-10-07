@@ -16,7 +16,6 @@ public class PoolCheck : MonoBehaviour
     {
         if (playerData.道具[2] >= 1 && Ispool3 == false)
         {
-            Debug.Log("ok1");
             playerData.MaxHP += 2;
             playerData.MoveSpeed *= 1.3f;
             playerData.SpeedFire *= 1.25f;

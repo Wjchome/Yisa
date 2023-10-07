@@ -112,7 +112,7 @@ public class TearFun : MonoBehaviour
 
                 if ((gameObjects[i].transform.position - transform.position).magnitude < 3)
                 {
-                    GetComponent<Rigidbody2D>().AddForce(Time.deltaTime * 100 * (gameObjects[i].transform.position - transform.position).normalized);
+                    GetComponent<Rigidbody2D>().AddForce(Time.deltaTime * 300 * (gameObjects[i].transform.position - transform.position).normalized);
                 }
             }
         }

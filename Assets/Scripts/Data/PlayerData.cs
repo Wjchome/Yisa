@@ -17,6 +17,8 @@ public class PlayerData : MonoBehaviour
 
     public int[] 道具;
 
+    public Sprite[] sprites;
+
     private void Awake()
     {
         MoveSpeed = 6;
@@ -33,6 +35,8 @@ public class PlayerData : MonoBehaviour
         AttackPower = 5;
 
         道具 = new int[3];
+
+
     }
 
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class 宝箱 : MonoBehaviour
@@ -27,14 +28,69 @@ public class 宝箱 : MonoBehaviour
     }
     void GetSomething()
     {
-        GameObject a = Instantiate(金币, transform.position, Quaternion.identity);
-        a.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100, 100), Random.Range(-100, 100)));
-        GameObject b = Instantiate(钥匙, transform.position, Quaternion.identity);
-        b.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100, 100), Random.Range(-100, 100)));
+        int a = Random.Range(0, 3);
+        if (a == 0)
+        {
+            int b = Random.Range(0, 3);
+            if (b == 0)
+            {
+                CodeShow();
+
+
+            }
+            else if (b == 1)
+            {
+
+                KeyShow();
+            }
+            else
+            {
+                BoomShow();
+            }
+
+        }
+        else
+        {
+            int b = Random.Range(0, 3);
+            if (b == 0)
+            {
+                CodeShow();
+                BoomShow();
+
+
+
+            }
+            else if (b == 1)
+            {
+                CodeShow();
+                KeyShow();
+            }
+            else
+            {
+                BoomShow();
+                KeyShow();
+
+            }
+
+        }
+
+    }
+    void CodeShow()
+    {
+        GameObject aa = Instantiate(金币, transform.position, Quaternion.identity);
+        aa.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100, 100), Random.Range(-100, 100)));
+
+    }
+    void KeyShow()
+    {
+        GameObject bb = Instantiate(钥匙, transform.position, Quaternion.identity);
+        bb.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100, 100), Random.Range(-100, 100)));
+    }
+    void BoomShow()
+    {
         GameObject c = Instantiate(炸弹, transform.position, Quaternion.identity);
         c.GetComponent<炸弹>().IsGet = true;
         c.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100, 100), Random.Range(-100, 100)));
-
     }
 
 }
